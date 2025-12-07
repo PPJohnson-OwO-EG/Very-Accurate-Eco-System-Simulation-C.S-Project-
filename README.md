@@ -6,4 +6,6 @@ This is my first proper 'big' project in Python so if it's scuffed that's why.
 
 I would reccommend launching this program by right clicking on it and opening with Python, if you don't have Python then you should install that first.
 
+This place also stores old versions of the game for you to peek through if you so wish.
+
 Suggestions are welcome!
