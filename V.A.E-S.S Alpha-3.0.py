@@ -75,6 +75,7 @@ print('New species!!! The scavengers, which feast upon prey and plants now help 
 print('More events!')
 print('Alot of balancing changes.')
 print('Small predator hunting overhaul.')
+print('Climate change improved.')
 print()
 print('P.S, it is recommended that you play this through python itself (It looks like a terminal). Everything is case sensitive, type EXACTLY what it tells you to. Besides the predators, prey and plants! Those are all yours :)')
 print()
@@ -358,6 +359,37 @@ while True:     #somehow works idk, dont touch too much
         print('----------------------------------------------')
         print('Scavenger populations have been very lucky with their finds... (Scav pop increases.)')
         scavenger = scavenger + 50
+        
+        
+        
+    if ccmild == 0 and ccmoderate == 0 and cchigh == 0 and cckillme == 0 and random.randint(0,30) == 10:             #heatwave, cc affected
+        print()
+        print('----------------------------------------------')
+        print('A heatwave is approaching!')
+        plants = plants - 1000
+    if ccmild == 1 and ccmoderate == 0 and cchigh == 0 and cckillme == 0 and random.randint(0,25) == 10:
+        print()
+        print('----------------------------------------------')
+        print('A heatwave is approaching!')
+        plants = plants - 2000
+    if ccmild == 0 and ccmoderate == 1 and cchigh == 0 and cckillme == 0 and random.randint(0,20) == 10:
+        print()
+        print('----------------------------------------------')
+        print('A heatwave is approaching!')
+        plants = plants - 3000   
+    if ccmild == 0 and ccmoderate == 0 and cchigh == 1 and cckillme == 0 and random.randint(0,10) == 10:
+        print()
+        print('----------------------------------------------')
+        print('A heatwave is approaching!')
+        plants = plants - 4000
+    if ccmild == 0 and ccmoderate == 0 and cchigh == 0 and cckillme == 1 and random.randint(0,5) == 10:
+        print()
+        print('----------------------------------------------')
+        print('A heatwave is approaching!')
+        plants = plants - 5000
+    
+        
+        
         
         
         
